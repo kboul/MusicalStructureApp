@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+    <string name="category_genres">Genres</string>
+    <string name="category_playlists">Playlists</string>
+    <string name="category_artists">Artists</string>
+    <string name="category_albums">Albums</string>
+    <string name="category_allSongs">All Songs</string>
+    <string name="title_activity_numbers">NumbersActivity</string>
+</resources>
