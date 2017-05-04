@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimary">#004D40</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <!-- Background color for all songs, artists and playlists categories -->
+    <color name="category_first_color">#00897B</color>
+
+    <!-- Background color for the albums and genres categories -->
+    <color name="category_second_color">#00796B</color>
+
     <!-- Background color for app -->
-    <color name="tan_background">#FFF7DA</color>
-
-    <!-- Background color for the artists category -->
-    <color name="category_artists">#00BCD4</color>
-
-    <!-- Background color for the albums category -->
-    <color name="category_albums">#03A9F4</color>
-
-    <!-- Background color for the playlists category -->
-    <color name="category_playlists">#1B5E20</color>
-
-    <!-- Background color for the all songs category -->
-    <color name="category_allSongs">#EF6C00</color>
-
-    <!-- Background color for the genres category -->
-    <color name="category_genres">#827717</color>
+    <color name="background">#004D40</color>
 </resources>

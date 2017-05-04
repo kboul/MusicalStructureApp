@@ -32,6 +32,7 @@ Select a potential structure and create an app with that structure in Android St
 * Detail screen or screens for individual artists, albums, or podcasts
 * Store screen for buying music online
 * Search screen
-* Each Activity should contain a **TextView** which tells a user the point of the screen, and what technical hurdles there are to implementing the screen. You should also add a collection of buttons indicating what Activities can be reached from the current one. Use OnClickListener objects to make your buttons change Activity using Intents.
+
+Each Activity should contain a **TextView** which tells a user the point of the screen, and what technical hurdles there are to implementing the screen. You should also add a collection of buttons indicating what Activities can be reached from the current one. Use OnClickListener objects to make your buttons change Activity using Intents.
 
 Finally, do some research on the technical hurdles and add a potential solution to each screen. The solution could be Android libraries or classes, an API on the internet, or code you could plan on writing. You do not need to actually implement any functionality. **The only required components are the TextViews explaining each Activity and the buttons that allow the user to change Activity.**
