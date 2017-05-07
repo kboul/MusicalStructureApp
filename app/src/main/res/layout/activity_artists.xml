@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/LinearLayout"
+    style="@style/ScrollView"
     tools:context="com.example.android.musicalstructureapp.ArtistsActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout style="@style/LinearLayout">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="@color/category_first_color"
+            android:drawableLeft="@drawable/adele"
+            android:text="@string/adele_art" />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="@color/category_second_color"
+            android:drawableLeft="@drawable/madonna"
+            android:text="@string/madonna_art" />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="@color/category_first_color"
+            android:drawableLeft="@drawable/enriqueiglesias"
+            android:text="@string/enrique_art" />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="@color/category_second_color"
+            android:drawableLeft="@drawable/thalia"
+            android:text="@string/thalia_art" />
+
+        <TextView
+            style="@style/ActivitiesInfo"
+            android:text="@string/artists_info" />
+
+    </LinearLayout>
+
+</ScrollView>

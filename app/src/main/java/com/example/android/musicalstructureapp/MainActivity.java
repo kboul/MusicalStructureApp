@@ -36,16 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Find the view that shows the Playlists category
-        TextView playlists = (TextView) findViewById(R.id.playlists);
-        playlists.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent playlistsIntent = new Intent(MainActivity.this, PlaylistsActivity.class);
-                startActivity(playlistsIntent);
-            }
-        });
-
         //Find the view that shows the Genres category
         TextView genres = (TextView) findViewById(R.id.genres);
         genres.setOnClickListener(new View.OnClickListener() {
