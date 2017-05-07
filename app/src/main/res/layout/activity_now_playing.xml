@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayout"
+    tools:context="com.example.android.musicalstructureapp.NowPlayingActivity">
+
+    <RelativeLayout style="@style/NowPlayingArtistInfoPanel">
+
+        <ImageView style="@style/ConnectDevicesIcon" />
+
+        <TextView style="@style/DisplayArtistInfo" />
+
+        <ImageView style="@style/VolumeUpIcon" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/NowPlayingAlbumCoverPanel">
+
+        <ImageView style="@style/AlbumCoverIcon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/NowPlayingProgressBarPanel">
+
+        <ImageView style="@style/ShuffleIcon" />
+
+        <ImageView style="@style/StarIcon" />
+
+        <ImageView style="@style/LibraryIcon" />
+
+        <RelativeLayout style="@style/NowPlayingProgressBar">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:max="100"
+                android:progress="45" />
+
+            <TextView style="@style/NowPlayingCurrentTrackTime" />
+
+            <TextView style="@style/NowPlayingTotalTrackTime" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/NowPlayingPlayMusicPanel">
+
+        <ImageView style="@style/DownArrowIcon" />
+
+        <ImageView
+            android:id="@+id/play"
+            style="@style/PlayIcon" />
+
+        <ImageView style="@style/BackwardIcon" />
+
+        <ImageView style="@style/ForwardIcon" />
+
+        <ImageView style="@style/QueueIcon" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/LinearLayout"
+    style="@style/ScrollView"
     tools:context="com.example.android.musicalstructureapp.AllSongsActivity">
 
-    <TextView
-        style="@style/CategoryStyle"
-        android:background="@color/category_first_color"
-        android:drawableLeft="@drawable/allsongs"
-        android:text="@string/triana" />
+    <LinearLayout style="@style/LinearLayout">
 
-    <TextView
-        style="@style/CategoryStyle"
-        android:background="@color/category_second_color"
-        android:drawableLeft="@drawable/allsongs"
-        android:text="@string/alicia" />
+        <TextView
+            android:id="@+id/nowPlaying1"
+            style="@style/CategoryStyle"
+            android:background="@color/category_first_color"
+            android:drawableLeft="@drawable/allsongs"
+            android:text="@string/triana" />
 
-    <TextView
-        style="@style/CategoryStyle"
-        android:background="@color/category_first_color"
-        android:drawableLeft="@drawable/allsongs"
-        android:text="@string/armik" />
+        <TextView
+            android:id="@+id/nowPlaying2"
+            style="@style/CategoryStyle"
+            android:background="@color/category_second_color"
+            android:drawableLeft="@drawable/allsongs"
+            android:text="@string/alicia" />
 
-    <TextView
-        style="@style/CategoryStyle"
-        android:background="@color/category_second_color"
-        android:drawableLeft="@drawable/allsongs"
-        android:text="@string/johanes" />
+        <TextView
+            android:id="@+id/nowPlaying3"
+            style="@style/CategoryStyle"
+            android:background="@color/category_first_color"
+            android:drawableLeft="@drawable/allsongs"
+            android:text="@string/armik" />
 
-    <TextView
-        style="@style/ActivitiesInfo"
-        android:text="@string/all_songs_info"/>
+        <TextView
+            android:id="@+id/nowPlaying4"
+            style="@style/CategoryStyle"
+            android:background="@color/category_second_color"
+            android:drawableLeft="@drawable/allsongs"
+            android:text="@string/johanes" />
 
-</LinearLayout>
+        <TextView
+            style="@style/ActivitiesInfo"
+            android:text="@string/all_songs_info" />
+
+    </LinearLayout>
+
+</ScrollView>

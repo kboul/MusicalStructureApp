@@ -35,4 +35,8 @@
     <string name="pop">Pop</string>
     <string name="genres_info">In this activity all the genres that correspond to songs stored in the user\'s device will be displayed. Once the user clicks a genre he will be transfered to an activity titled as the selected genre showing which songs correspond to the selected genre.</string>
 
+    <!-- Now Playing Activity -->
+    <string name="display_artist_info">Artist\nSong\nAlbum</string>
+    <string name="current_track_time">03.45</string>
+    <string name="total_track_time">06.22</string>
 </resources>

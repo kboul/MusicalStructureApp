@@ -12,4 +12,19 @@
 
     <!-- Background color for app -->
     <color name="background">#004D40</color>
+
+    <!-- Background color for artist info panel -->
+    <color name="artist_info_panel">#607D8B</color>
+
+    <!-- Background color for displaying artist info -->
+    <color name="display_artist_info">#000000</color>
+
+    <!-- Background color for album cover -->
+    <color name="album_cover">#00BCD4</color>
+
+    <!-- Background color for progress bar panel -->
+    <color name="progress_bar_panel">#90A4AE</color>
+
+    <!-- Background color for play music panel -->
+    <color name="play_music_panel">#78909C</color>
 </resources>

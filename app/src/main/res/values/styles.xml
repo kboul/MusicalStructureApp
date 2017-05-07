@@ -32,10 +32,230 @@
         <item name="android:drawablePadding">@dimen/icon_distance</item>
     </style>
 
+    <!-- Activities Information -->
     <style name="ActivitiesInfo">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/activities_info_padding</item>
+    </style>
+
+    <!-- Now Playing layout activity -->
+
+    <!-- Artist Info Panel -->
+    <style name="NowPlayingArtistInfoPanel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:background">@color/artist_info_panel</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <!-- Artist Info Panel for Landscape mode -->
+    <style name="NowPlayingArtistInfoPanelLandScape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2.5</item>
+        <item name="android:background">@color/artist_info_panel</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <!-- Connect Devices Icon -->
+    <style name="ConnectDevicesIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_devices_other_black_48dp</item>
+    </style>
+
+    <!-- Display Artist Info -->
+    <style name="DisplayArtistInfo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:text">@string/display_artist_info</item>
+        <item name="android:textColor">@color/display_artist_info</item>
+        <item name="android:textSize">@dimen/display_artist_info</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Volume Up Icon -->
+    <style name="VolumeUpIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_volume_up_black_48dp</item>
+    </style>
+
+    <!-- Album Cover Panel -->
+    <style name="NowPlayingAlbumCoverPanel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:background">@color/album_cover</item>
+    </style>
+
+    <!-- Album Cover Panel for Landscape mode -->
+    <style name="NowPlayingAlbumCoverPanelLandscape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2.5</item>
+        <item name="android:background">@color/album_cover</item>
+    </style>
+
+    <!-- Album Cover Icon -->
+    <style name="AlbumCoverIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/allsongs</item>
+    </style>
+
+    <!-- Progress Track Bar Panel -->
+    <style name="NowPlayingProgressBarPanel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2.5</item>
+        <item name="android:background">@color/progress_bar_panel</item>
+        <item name="android:padding">@dimen/progress_bar_panel_padding</item>
+    </style>
+
+    <!-- Progress Track Bar Panel for Landscape mode -->
+    <style name="NowPlayingProgressBarPanelLandScape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:background">@color/progress_bar_panel</item>
+        <item name="android:padding">@dimen/progress_bar_panel_padding</item>
+    </style>
+
+    <!-- Shuffle Icon -->
+    <style name="ShuffleIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_shuffle_black_48dp</item>
+    </style>
+
+    <!-- Star Icon -->
+    <style name="StarIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_star_border_black_48dp</item>
+    </style>
+
+    <!-- Library Icon -->
+    <style name="LibraryIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_library_music_black_48dp</item>
+    </style>
+
+    <!-- Progress Bar -->
+    <style name="NowPlayingProgressBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/progress_bar</item>
+    </style>
+
+    <!-- Current Track Time -->
+    <style name="NowPlayingCurrentTrackTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/progress</item>
+        <item name="android:text">@string/current_track_time</item>
+    </style>
+
+    <!-- Total Track Time -->
+    <style name="NowPlayingTotalTrackTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_below">@id/progress</item>
+        <item name="android:text">@string/total_track_time</item>
+    </style>
+
+    <!-- Play Music Panel -->
+    <style name="NowPlayingPlayMusicPanel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:background">@color/play_music_panel</item>
+        <item name="android:paddingLeft">@dimen/play_music_panel_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/play_music_panel_padding_left_right</item>
+    </style>
+
+    <!-- Play Music Panel for Landscape mode-->
+    <style name="NowPlayingPlayMusicPanelLandscape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2.5</item>
+        <item name="android:background">@color/play_music_panel</item>
+        <item name="android:paddingLeft">@dimen/play_music_panel_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/play_music_panel_padding_left_right</item>
+    </style>
+
+    <!-- Down Arrow Icon -->
+    <style name="DownArrowIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_keyboard_arrow_down_black_48dp</item>
+    </style>
+
+    <!-- Play Icon -->
+    <style name="PlayIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_play_circle_filled_black_48dp</item>
+    </style>
+
+    <!-- Backward Icon -->
+    <style name="BackwardIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_toLeftOf">@id/play</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_skip_backward_black_48dp</item>
+    </style>
+
+    <!-- Forward Icon -->
+    <style name="ForwardIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_toRightOf">@id/play</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_fast_forward_black_48dp</item>
+    </style>
+
+    <!-- Forward Icon -->
+    <style name="QueueIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_queue_music_black_48dp</item>
     </style>
 </resources>
