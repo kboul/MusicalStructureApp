@@ -12,7 +12,7 @@
     <string name="alicia">Fallin\'\nAlicia Keys</string>
     <string name="armik">Alone with you\nArmik</string>
     <string name="johanes">Between Tears\nJohanes Linstead</string>
-    <string name="all_songs_info">In this activity all the available songs stored in the user\'s device will be displayed. Once the user clicks a song he will be transfered to the now playing activity.</string>
+    <string name="all_songs_info">In this activity all the available songs stored in the user\'s device will be displayed. Once the user clicks a song he will be transfered to the now playing activity. MediaPlayer class can be used to implement the play music functionality.</string>
 
     <!-- Albums Activity -->
     <string name="adele">21\nAdele</string>
